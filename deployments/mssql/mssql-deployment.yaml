@@ -29,5 +29,5 @@ spec:
               value: "Express"
           resources:
             limits:
-              memory: "1G"
-              cpu: "2"
+              memory: "2G"
+              cpu: "3"
