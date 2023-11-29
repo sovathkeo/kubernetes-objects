@@ -25,5 +25,5 @@ spec:
               value: "container"
           resources:
             limits:
-              memory: "512Mi"
+              memory: "512MB"
               cpu: "1"
