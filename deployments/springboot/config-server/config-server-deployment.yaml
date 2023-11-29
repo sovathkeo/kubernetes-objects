@@ -29,4 +29,4 @@ spec:
               cpu: "1"
             requests:
               memory: "256Mi"
-              cpu: "0.2"
+              cpu: "0.5"
