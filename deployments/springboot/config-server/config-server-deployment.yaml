@@ -21,6 +21,8 @@ spec:
           env:
             - name: "TZ"
               value: "Asia/Phnom_Penh"
+            - name: "SPRING_PROFILES_ACTIVE"
+              value: "container"
           resources:
             limits:
               memory: "512Mi"
