@@ -31,6 +31,3 @@ spec:
             limits:
               memory: "1G"
               cpu: "2"
-            requests:
-              memory: "512Mi"
-              cpu: "1"
