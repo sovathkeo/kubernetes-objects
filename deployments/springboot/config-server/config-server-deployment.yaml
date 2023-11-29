@@ -14,7 +14,7 @@ spec:
         app: config-server-app
     spec:
       containers:
-        - image: registry-service:80/config-server
+        - image: http://registry-service:80/config-server
           name: config-server-app
           ports:
             - containerPort: 8080
