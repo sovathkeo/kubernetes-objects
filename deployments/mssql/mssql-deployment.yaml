@@ -29,8 +29,8 @@ spec:
               value: "Express"
           resources:
             limits:
-              memory: "512Mi"
+              memory: "1G"
               cpu: "1"
             requests:
-              memory: "256Mi"
+              memory: "512Mi"
               cpu: "0.2"
