@@ -14,7 +14,7 @@ spec:
         app: config-server-app
     spec:
       containers:
-        - image: http://registry-service:5000/config-server
+        - image: registry-service:5000/config-server
           name: config-server-app
           ports:
             - containerPort: 8080
@@ -27,6 +27,3 @@ spec:
             limits:
               memory: "512Mi"
               cpu: "1"
-            requests:
-              memory: "256Mi"
-              cpu: "0.5"
