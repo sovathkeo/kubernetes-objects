@@ -14,9 +14,9 @@ spec:
         app: config-server-app
     spec:
       imagePullSecrets:
-        - name: registry-1
+        - name: registry-2
       containers:
-        - image: registry-service:5000/config-server
+        - image: config-server
           name: config-server-app
           ports:
             - containerPort: 8080
