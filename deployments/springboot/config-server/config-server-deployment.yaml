@@ -13,8 +13,8 @@ spec:
       labels:
         app: config-server-app
     spec:
-      # imagePullSecrets:
-      #   - name: registry-2
+      imagePullSecrets:
+        - name: registry-1
       containers:
         - image: registry-service:5000/config-server:0.0.2
           name: config-server-app
