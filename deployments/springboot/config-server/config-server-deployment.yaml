@@ -16,7 +16,7 @@ spec:
       imagePullSecrets:
         - name: registry-2
       containers:
-        - image: config-server
+        - image: registry-service:5000/config-server
           name: config-server-app
           ports:
             - containerPort: 8080
@@ -31,4 +31,4 @@ spec:
               cpu: "1"
             requests:
               memory: "512Mi"
-              cpu: "0.4"
+              cpu: "0.3"
