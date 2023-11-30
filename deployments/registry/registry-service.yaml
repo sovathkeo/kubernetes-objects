@@ -9,3 +9,14 @@ spec:
     - protocol: TCP
       port: 5000
       targetPort: 5000
+
+---
+kind: Endpoints
+apiVersion: v1
+metadata:
+  name: registry-service
+subsets:
+  - addresses:
+      - ip: 172.17.0.1
+    ports:
+      - port: 5000
